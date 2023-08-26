@@ -11,6 +11,8 @@
 		33458D992A92F372003322F5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 33458D982A92F372003322F5 /* SnapKit */; };
 		33458D9C2A92F380003322F5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 33458D9B2A92F380003322F5 /* Kingfisher */; };
 		33458D9F2A92F38D003322F5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 33458D9E2A92F38D003322F5 /* Alamofire */; };
+		3392EF512A99D80E00C099E0 /* NomalCaroselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3392EF502A99D80E00C099E0 /* NomalCaroselCollectionViewCell.swift */; };
+		3392EF532A9A2DBA00C099E0 /* ListCarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3392EF522A9A2DBA00C099E0 /* ListCarouselCollectionViewCell.swift */; };
 		33BF11BF2A927AE900EC3163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BF11BE2A927AE900EC3163 /* AppDelegate.swift */; };
 		33BF11C12A927AE900EC3163 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BF11C02A927AE900EC3163 /* SceneDelegate.swift */; };
 		33BF11C32A927AE900EC3163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BF11C22A927AE900EC3163 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		33458D952A92F23A003322F5 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		3392EF502A99D80E00C099E0 /* NomalCaroselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomalCaroselCollectionViewCell.swift; sourceTree = "<group>"; };
+		3392EF522A9A2DBA00C099E0 /* ListCarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarouselCollectionViewCell.swift; sourceTree = "<group>"; };
 		33BF11BB2A927AE900EC3163 /* ModernCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BF11BE2A927AE900EC3163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33BF11C02A927AE900EC3163 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3392EF542A9A39F900C099E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33BF11D22A928DDE00EC3163 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3392EF552A9A3A0C00C099E0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				33BF11C22A927AE900EC3163 /* ViewController.swift */,
+				33458D952A92F23A003322F5 /* BannerCollectionViewCell.swift */,
+				3392EF522A9A2DBA00C099E0 /* ListCarouselCollectionViewCell.swift */,
+				3392EF502A99D80E00C099E0 /* NomalCaroselCollectionViewCell.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		33BF11B22A927AE900EC3163 = {
 			isa = PBXGroup;
 			children = (
@@ -68,10 +91,9 @@
 			children = (
 				33BF11BE2A927AE900EC3163 /* AppDelegate.swift */,
 				33BF11C02A927AE900EC3163 /* SceneDelegate.swift */,
-				33BF11C22A927AE900EC3163 /* ViewController.swift */,
-				33458D952A92F23A003322F5 /* BannerCollectionViewCell.swift */,
 				33BF11C42A927AE900EC3163 /* Main.storyboard */,
-				33BF11D22A928DDE00EC3163 /* Item.swift */,
+				3392EF542A9A39F900C099E0 /* Models */,
+				3392EF552A9A3A0C00C099E0 /* Scenes */,
 				33BF11C72A927AEA00EC3163 /* Assets.xcassets */,
 				33BF11C92A927AEA00EC3163 /* LaunchScreen.storyboard */,
 				33BF11CC2A927AEA00EC3163 /* Info.plist */,
@@ -163,7 +185,9 @@
 				33BF11D32A928DDE00EC3163 /* Item.swift in Sources */,
 				33BF11C32A927AE900EC3163 /* ViewController.swift in Sources */,
 				33BF11BF2A927AE900EC3163 /* AppDelegate.swift in Sources */,
+				3392EF532A9A2DBA00C099E0 /* ListCarouselCollectionViewCell.swift in Sources */,
 				33458D962A92F23A003322F5 /* BannerCollectionViewCell.swift in Sources */,
+				3392EF512A99D80E00C099E0 /* NomalCaroselCollectionViewCell.swift in Sources */,
 				33BF11C12A927AE900EC3163 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
